@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dualidad Sensorial</title>
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+    font-family: Arial;
+    background:#3f1c3c;
+}
+
+header {
+    background:#351c33;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav {
+    background:#563f56;
+    padding:10px;
+
+}
+
+nav ul {
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:15px;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+main {
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+section {
+    background:rgb(228, 193, 217);
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+
+.media-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.media-card {
+    color: #ccc;
+    background:#3c1e38;
+    padding:10px;
+    border-left:4px solid #80167d;
+}
+
+img {
+    width:100%;
+    border-radius:10px;
+    margin-top:10px;
+}
+
+audio, video {
+    width:100%;
+    margin-top:10px;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th, td {
+    border:1px solid #22041c;
+    padding:10px;
+}
+
+th {
+    background:#80167d;
+    color:white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8d4e8; 
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+}
+
+input, textarea {
+    padding:10px;
+    margin:8px 0;
+}
+
+button {
+    padding:10px;
+    background:#80167d;
+    color:rgb(255, 223, 249);
+    border:none;
+}
+
+aside {
+    background:rgb(228, 193, 217);
+    padding:20px;
+    margin:20px;
+}
+
+footer {
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Dualidad Sensorial</h1>
+<p></p>
+</header>
+
+<nav>
+<ul>
+<li><a href="#universidad">Universidad</a></li>
+<li><a href="#ciudad">Ciudad</a></li>
+<li><a href="#cuerpo">Cuerpo</a></li>
+<li><a href="#tecnologia">Tecnología</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#tabla">Registro</a></li>
+<li><a href="#formulario">Sugerencias</a></li>
+</ul>
+</nav>
+
+<main>
+
+<section>
+<h2>Introducción</h2>
+<p>El bien y el mal, la calma y el caos; juntos conviven en una misma experiencia.
+Navegar tu propio mundo de manera empírica por medio de los sentidos, es fundamental para comprender el origen de cada experiencia percibida, definiendo así su dualidad.
+
+Bienvenidos a "Dualidad Sensorial", un repositorio de audios, imágenes y videos que transforman la experiencia cotidiana en una exploración sensorial. </p>
+</section>
+
+
+<section id="universidad">
+<h2>Sonidos de la Universidad</h2>
+<div class="media-grid">
+
+<article class="media-card">
+<h3>Maleta</h3>
+<p>El objeto escencial para cualquier estudiante</p>
+<figure>
+<img src="media/maleta.jpg" alt="representación de maleta">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/maleta.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Escribir</h3>
+<p>La conexión entre la concentración, atención y mente</p>
+<figure>
+<img src="media/escribir.jpg" alt="representación de escribir">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/escribir.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Hojas</h3>
+<p>Cuando algo sale mal, no es una mala idea volver a empezar.</p>
+<figure>
+<img src="media/hojas.jpg" alt="representación de hojas">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/hojas.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+</div>
+</section>
+
+<section id="ciudad">
+<h2>Sonidos de la Ciudad</h2>
+<div class="media-grid">
+
+<article class="media-card">
+<h3>Tráfico</h3>
+<p>En está ciudad caótica, la puntualidad no existe.</p>
+<figure>
+<img src="media/trafico.jpg" alt="representación de trafico">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/trafico.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Susurro</h3>
+<p>Entre tantas personas conviviendo contigo, no existe claridad para entender que quieren decir.</p>
+<figure>
+<img src="media/susurro.jpg" alt="representación de Susurro">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/susurro.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Perros</h3>
+<p>El mejor amigo del hombre, utilizando el mismo método de defensa</p>
+<figure>
+<img src="media/perros.jpg" alt="representación de perros">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/perros.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+</div>
+</section>
+
+
+<section id="cuerpo">
+<h2>Sonidos del Cuerpo</h2>
+<div class="media-grid">
+
+<article class="media-card">
+<h3>Manos</h3>
+<p>La concentración de estrés entre las articulaciones.</p>
+<figure>
+<img src="media/manos.jpg" alt="representación de manos">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/manos.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Latidos</h3>
+<p>Golpes a 100bpm, nuestro motor. </p>
+<figure>
+<img src="media/latidos.jpg" alt="representación de latidos">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/latidos.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Respiración</h3>
+<p>inhalar, sostener, exhalar; un ciclo constante</p>
+<figure>
+<img src="media/respiracion.jpg" alt="representación de respiracion">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/respiracion.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+</div>
+</section>
+
+
+<section id="tecnologia">
+<h2>Sonidos de lo Tecnológico</h2>
+<div class="media-grid">
+
+<article class="media-card">
+<h3>Conexión</h3>
+<p>Entre tantos cables enredados, siempre será increíble la luz de encendido</p>
+<figure>
+<img src="media/conexion.jpg" alt="representación de conexion">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/conexion.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Teclado</h3>
+<p>La conexión entre la concentración, atención y mente; ahora digitalmente</p>
+<figure>
+<img src="media/teclado.jpg" alt="representación de teclado">
+<figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/teclado.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+<article class="media-card">
+<h3>Notificación</h3>
+<p>Mil contextos, mismo sonido, mismo proceder. </p>
+<figure>
+<img src="media/notificacion.jpg" alt="representación de notificacion">
+figcaption>dibujado por: Andrés</figcaption>
+</figure>
+<audio controls>
+<source src="media/notificacion.mp3" type="audio/mpeg">
+</audio>
+</article>
+
+</div>
+</section>
+
+
+<section id="videos">
+<h2>Videos</h2>
+
+<article class="media-card">
+<h3>Gesto</h3>
+<p>El poder del mundo, en la palma de tu mano.</p>
+<video controls>
+<source src="media/gesto.mp4" type="video/mp4">
+</video>
+</article>
+
+<article class="media-card">
+<h3>Recorrido</h3>
+<p>Un viaje, un mundo por explorar.</p>
+<video controls>
+<source src="media/recorrido.mp4" type="video/mp4">
+</video>
+</article>
+
+<article class="media-card">
+<h3>Objeto</h3>
+<p>La ilusión, ver el mundo como tú quieres verlo.</p>
+<video controls>
+<source src="media/objeto.mp4" type="video/mp4">
+</video>
+</article>
+
+<article class="media-card">
+<h3>Escena</h3>
+<p>405 grados de paisaje.</p>
+<video controls>
+<source src="media/escena.mp4" type="video/mp4">
+</video>
+</article>
+
+</section>
+
+
+<section id="tabla">
+<h2>Registro del Archivo</h2>
+
+<h3>Tabla de Audios</h3>
+<table>
+<tr>
+    <th>Nombre</th>
+    <th>Categoría</th>
+    <th>Lugar</th>
+    <th>Fecha</th>
+    <th>Duración</th>
+</tr>
+<tr>
+    <td>Maleta</td>
+    <td>Universidad</td>
+    <td>Salón</td>
+    <td>2026</td>
+    <td>25s</td>
+</tr>
+<tr>
+    <td>Escribir</td>
+    <td>Universidad</td>
+    <td>Salón</td>
+    <td>2026</td>
+    <td>24s</td>
+</tr>
+<tr>
+    <td>Hojas</td>
+    <td>Universidad</td>
+    <td>Salón</td>
+    <td>2026</td>
+    <td>21s</td>
+</tr>
+<tr>
+    <td>Tráfico</td>
+    <td>Ciudad</td>
+    <td>Calle</td>
+    <td>2026</td>
+    <td>52s</td>
+</tr>
+<tr>
+    <td>Susurro</td>
+    <td>Ciudad</td>
+    <td>Casa</td>
+    <td>2026</td>
+    <td>18s</td>
+</tr>
+<tr>
+    <td>Perros</td>
+    <td>Ciudad</td>
+    <td>Parque</td>
+    <td>2026</td>
+    <td>18s</td>
+</tr>
+<tr>
+    <td>Manos</td>
+    <td>Cuerpo</td>
+    <td>Cuarto</td>
+    <td>2026</td>
+    <td>13s</td>
+</tr>
+<tr>
+    <td>Latidos</td>
+    <td>Cuerpo</td>
+    <td>Cuarto</td>
+    <td>2026</td>
+    <td>19s</td>
+</tr>
+<tr>
+    <td>Respiración</td>
+    <td>Cuerpo</td>
+    <td>Cuarto</td>
+    <td>2026</td>
+    <td>18s</td>
+</tr>
+<tr>
+    <td>Conexión</td>
+    <td>Tecnología</td>
+    <td>Casa</td>
+    <td>2026</td>
+    <td>23s</td>
+</tr>
+<tr>
+    <td>Teclado</td>
+    <td>Tecnología</td>
+    <td>Cuarto</td>
+    <td>2026</td>
+    <td>20s</td>
+</tr>
+<tr>
+    <td>Notificación</td>
+    <td>Tecnología</td>
+    <td>Casa</td>
+    <td>2026</td>
+    <td>15s</td>
+</tr>
+</table>
+
+<h3>Tabla de Videos</h3>
+<table>
+<tr>
+    <th>Nombre</th>
+    <th>Lugar</th>
+    <th>Fecha</th>
+    <th>Duración</th>
+</tr>
+<tr>
+    <td>Gesto</td>
+    <td>Casa</td>
+    <td>2026</td>
+    <td>36s</td>
+</tr>
+<tr>
+    <td>Recorrido</td>
+    <td>La guajira</td>
+    <td>2026</td>
+    <td>25s</td>
+</tr>
+<tr>
+    <td>Objeto</td>
+    <td>Casa</td>
+    <td>2026</td>
+    <td>23s</td>
+</tr>
+<tr>
+    <td>Escena</td>
+    <td>Universidad</td>
+    <td>2026</td>
+    <td>35s</td>
+</tr>
+</table>
+
+</section>
+
+<section id="formulario">
+<h2>Sugerir sonido</h2>
+<form>
+<label>Nombre:</label>
+<input type="text">
+<label>Descripción:</label>
+<textarea></textarea>
+<button>Enviar</button>
+</form>
+</section>
+
+</main>
+
+<aside>
+<h2>Recomenadaciones</h2>
+<ul>
+    <li>Escuchar en un lugar tranquilo</li>
+    <li>Abre tu mente</li>
+    <li>Escuchar con audífonos</li>
+    <li>Busca el cambio</li>
+</ul>
+</aside>
+
+<footer>
+<p>Dualidad sensorial company. </p>
+<p>Nicolás Andrés Macias. </p>
+<p>Bogotá, Colombia.</p>
+<p>#2026</p>
+<p>#fr</p>
+</footer>
+
+</body>
+</html>
