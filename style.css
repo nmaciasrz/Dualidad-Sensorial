@@ -67,10 +67,29 @@ nav {
   z-index: 100;
   border-bottom: 1px solid #3a1a38;
 }
-nav a {
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 18px;
+  color: #c0a8be;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid var(--acento);
 }
 
 main {
