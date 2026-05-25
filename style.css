@@ -245,14 +245,45 @@ tbody tr:nth-child(even) td {
   background: rgba(128, 22, 125, 0.08);
 }
 
-form {
-    display:flex;
-    flex-direction:column;
+#formulario h2 {
+  margin-bottom: 20px;
 }
 
-input, textarea {
-    padding:10px;
-    margin:8px 0;
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9a7898;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+input,
+textarea {
+  background: #1a0a18;
+  border: 1px solid #3d1a3a;
+  border-radius: 3px;
+  padding: 12px 14px;
+  color: #e0cce0;
+  font-family: Arial, sans-serif;
+  font-size: 0.88rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #5a4a58;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
 }
 
 button {
