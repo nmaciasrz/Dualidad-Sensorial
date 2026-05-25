@@ -37,25 +37,36 @@ img {
 }
 
 header {
-    background:#351c33;
-    color:white;
-    text-align:center;
-    padding:20px;
+  background: #120910;
+  color: white;
+  text-align: center;
+  padding: 60px 20px 50px;
+  border-bottom: 1px solid #3a1a38;
 }
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 0.95rem;
+  color: #b8a0b6;
+  font-style: italic;
+}
+
 
 nav {
-    background:#563f56;
-    padding:10px;
-
+  background: rgba(18, 9, 16, 0.92);
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #3a1a38;
 }
-
-nav ul {
-    display:flex;
-    justify-content:center;
-    list-style:none;
-    gap:15px;
-}
-
 nav a {
     color:white;
     text-decoration:none;
