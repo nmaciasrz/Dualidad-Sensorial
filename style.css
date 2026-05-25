@@ -2,12 +2,19 @@
   --acento: #80167d;
 }
 
-* { margin:0; padding:0; box-sizing:border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    font-family: Arial;
-    background:#3f1c3c;
+  font-family: Arial, sans-serif;
+  background: #1a0a18;
+  color: #e0cce0;
+  line-height: 1.6;
 }
+
 
 header {
     background:#351c33;
