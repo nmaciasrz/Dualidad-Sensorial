@@ -287,21 +287,58 @@ textarea {
 }
 
 button {
-    padding:10px;
-    background:#80167d;
-    color:rgb(255, 223, 249);
-    border:none;
+  margin-top: 20px;
+  padding: 14px;
+  background: var(--acento);
+  color: #ffe8ff;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 aside {
-    background:rgb(228, 193, 217);
-    padding:20px;
-    margin:20px;
+  background: #f5c8e8;
+  color: #2a102a;
+  padding: 24px;
+  margin: 0 20px 24px;
+  border-radius: 4px;
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: 20px;
+  box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+}
+
+aside h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: #2a102a;
+  margin-bottom: 14px;
+}
+
+aside ul {
+  list-style: disc;
+  padding-left: 18px;
+}
+
+aside ul li {
+  font-size: 0.85rem;
+  color: #4a2a48;
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 footer {
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:16px;
+  background: #080508;
+  color: #6a506a;
+  text-align: center;
+  padding: 32px 20px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 2;
+  border-top: 1px solid #2a1028;
 }
