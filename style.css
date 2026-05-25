@@ -342,3 +342,60 @@ footer {
   line-height: 2;
   border-top: 1px solid #2a1028;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  nav ul {
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  nav ul li a {
+    padding: 12px 12px;
+    font-size: 0.72rem;
+  }
+
+  section:first-of-type {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #videos {
+    grid-template-columns: 1fr;
+  }
+
+  aside {
+    max-width: 100%;
+    margin: 0 0 24px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+  }
+}
